@@ -366,7 +366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1148547287}
   playerCamera: {fileID: 965119971}
-  ballDistance: 1.5
+  ballDistance: 2
   ballThrowingForce: 550
   holdingBall: 1
 --- !u!1 &608050262
@@ -694,6 +694,10 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RunstepLenghten
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
